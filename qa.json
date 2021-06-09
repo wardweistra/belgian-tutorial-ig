@@ -1,0 +1,12 @@
+{
+  "url": "https://wardweistra.nl/fhir/ImplementationGuide/belgian.tutorial.ig",
+  "name": "BelgianTutorialIG",
+  "package-id": "wardweistra.nl.beligian.tutorial.ig",
+  "ig-ver": "0.1.0-test",
+  "date": "Wed, 09 Jun, 2021 19:00:14 +0000",
+  "errs": 4,
+  "warnings": 1,
+  "hints": 0,
+  "version": "4.0.1",
+  "tool": "4.6.0 (3)"
+}

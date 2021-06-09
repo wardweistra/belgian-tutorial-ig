@@ -1,0 +1,18 @@
+﻿BelgianTutorialIG : Validation Results
+=========================================
+
+err = 4, warn = 1, info = 0
+IG Publisher Version: 1.1.73
+Generated Wed Jun 09 19:00:21 UTC 2021. FHIR version 4.0.1 for wardweistra.nl.beligian.tutorial.ig#0.1.0-test (canonical = https://wardweistra.nl/fhir)
+
+ Build Errors : 0 / 1 / 0
+ /github/workspace/input/myig : 4 / 0 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be wardweistra.nl.beligian.tutorial.ig
+== /github/workspace/input/myig.xml ==
+ERROR: ImplementationGuide.where(url = 'https://wardweistra.nl/fhir/ImplementationGuide/belgian.tutorial.ig'): Conformance resource /github/workspace/input/myig.xml - the canonical URL (https://wardweistra.nl/fhir/ImplementationGuide/belgian-tutorial-ig) does not match the URL (https://wardweistra.nl/fhir/ImplementationGuide/belgian.tutorial.ig)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: belgian-tutorial-ig/https://wardweistra.nl/fhir/ImplementationGuide/belgian.tutorial.ig
+INFORMATION: ImplementationGuide/belgian-tutorial-ig: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+ERROR: ImplementationGuide/belgian-tutorial-ig: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide)
+ERROR: /github/workspace/input/myig: URL Mismatch https://wardweistra.nl/fhir/ImplementationGuide/belgian-tutorial-ig vs https://wardweistra.nl/fhir/ImplementationGuide/belgian.tutorial.ig

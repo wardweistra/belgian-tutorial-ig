@@ -1,0 +1,9 @@
+[
+  {
+    "id": "belgian-tutorial-ig",
+    "type": "ImplementationGuide",
+    "url": "https://wardweistra.nl/fhir/ImplementationGuide/belgian.tutorial.ig",
+    "version": "0.1.0-test",
+    "name": "BelgianTutorialIG"
+  }
+]
